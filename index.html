@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Nubank</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="sobre">
+        <h1>Nubank</h1>
+        <div class="container">
+            <img src="./src/imagem/Nubank_logo.jpg" alt="Imagem Logo" class="imagem_logo">
+            <div class="texto-sobre-imagem">O Nubank é uma das maiores fintechs da América Latina, oferecendo serviços financeiros simples e eficientes para milhões de clientes.</div>
+        </div>
+    </section>
+     <!-- serviços fornecidos pelo Nubank -->
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Cartão de Crédito</li>
+            <li>Conta Digital</li>
+            <li>Empréstimos</li>
+            <li>Investimentos</li>
+        </ul>
+    </section>
+        <!-- sobre o formulario -->
+    <section id="portfolio">
+            <h2>Portfólios</h2>
+            <h3>Aqui estão alguns dos projetos e serviços oferecidos pelo Nubank.</h3>
+        
+            <div class="imagem_portfolio">
+                <div class="container_portfolio">
+                    <img src="./src/imagem/Nubank_cartao.jpg" alt="Cartão Nubank" class="imagem_portfolio">
+                    <div class="texto_portfolio">
+                        <li>Um cartão sem anuidade com gerenciamento totalmente digital e controle na palma da sua mão.</li>
+                    </div>
+                </div>
+                <div class="container_portfolio">
+                    <img src="./src/imagem/Nubank_conta.jpg" alt="Conta Digital Nubank" class="imagem_portfolio">
+                    <div class="texto_portfolio">
+                        <li>Uma conta corrente gratuita que oferece transferências, pagamentos e rendimentos automáticos.</li>
+                    </div>
+                </div>
+                <div class="container_portfolio">
+                    <img src="./src/imagem/Nubank_emprestimo.jpg" alt="Empréstimos Nubank" class="imagem_portfolio">
+                    <div class="texto_portfolio">
+                        <li>Empréstimos personalizados com taxas justas e transparência, sem pegadinhas.</li>
+                    </div>
+                </div>
+                <div class="container_portfolio">
+                    <img src="./src/imagem/Nubank_investimento.jpg" alt="Investimentos Nubank" class="imagem_portfolio">
+                    <div class="texto_portfolio">
+                        <li>Acompanhe e invista em produtos financeiros com segurança e simplicidade pelo app.</li>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <!-- formulario -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nubank. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
